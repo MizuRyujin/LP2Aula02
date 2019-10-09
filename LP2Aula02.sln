@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "Tuples\Tuples.csproj", "{FD284738-ACE5-4EDE-81E6-565CA5180708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuples", "Tuples\Tuples.csproj", "{FD284738-ACE5-4EDE-81E6-565CA5180708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameUnits", "GameUnits\GameUnits.csproj", "{F1CBD2A3-F299-4A30-AC7F-48D28DCAEA42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FD284738-ACE5-4EDE-81E6-565CA5180708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD284738-ACE5-4EDE-81E6-565CA5180708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD284738-ACE5-4EDE-81E6-565CA5180708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CBD2A3-F299-4A30-AC7F-48D28DCAEA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CBD2A3-F299-4A30-AC7F-48D28DCAEA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CBD2A3-F299-4A30-AC7F-48D28DCAEA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CBD2A3-F299-4A30-AC7F-48D28DCAEA42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
