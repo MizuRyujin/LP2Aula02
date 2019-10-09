@@ -24,17 +24,23 @@ namespace Tuples
                 Console.WriteLine(obj);
             }
 
+            Console.WriteLine();
+
             Console.WriteLine("Second method to get stuff");
             s = GetStuff2();
             Console.WriteLine($"Int = {s.Intager}, " +
                 $"Double = {s.Double}, " +
                 $"Bool = {s.Bool}");
 
+            Console.WriteLine();
+
             Console.WriteLine("Third method to get stuff");
             GetStuff3(out i, out d, out b);
             Console.WriteLine($"Int = {i}, " +
                 $"Double = {d}, " +
                 $"Bool = {b}");
+
+            Console.WriteLine();
 
             Console.WriteLine("Fourth method to get stuff");
             tp = GetStuff4();
